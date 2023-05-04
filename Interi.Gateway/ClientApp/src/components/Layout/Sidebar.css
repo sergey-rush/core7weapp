@@ -1,0 +1,27 @@
+.simplebar-wrapper{
+  margin: 0px;
+}
+.simplebar-offset{
+  right: 0px; bottom: 0px;
+}
+.simplebar-content-wrapper{
+  height: 100%; overflow: hidden scroll;
+}
+.simplebar-content{
+  padding: 0px;
+}
+.simplebar-placeholder{
+  width: auto; height: 1668px;
+}
+.simplebar-track-horizontal{
+  visibility: hidden;
+}
+.simplebar-scrollbar-display-none{
+  width: 0px; display: none;
+}
+.simplebar-track-vertical{
+  visibility: visible;
+}
+.simplebar-scrollbar-transform{
+  height: 116px; transform: translate3d(0px, 0px, 0px); display: block;
+}

@@ -1,0 +1,21 @@
+syntax = "proto3";
+
+package BrokerService;
+
+// The broker service definition.
+service Broker {
+  // Sends 
+  rpc PostInsRequest (stream InsRequest) returns (stream InsResponse);
+}
+
+// The request message
+message InsRequest {
+  int32 count = 1;
+  string message = 2;
+}
+
+// The response message
+message InsResponse {
+  int32 count = 1;
+  string message = 2;
+}
